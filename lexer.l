@@ -22,7 +22,7 @@ True|False|None|and|as|assert|async|await|break|class|continue|del|def|elif|else
 			strcat(ans," ");
 			strcat(ans, yytext);
 			strcat(ans,"\n");}
-[{}():\[\]]		{printf("%s %s \n",yytext, DELIMITER);
+[():\[\]]		{printf("%s %s \n",yytext, DELIMITER);
 			strcat(ans, DELIMITER);
 			strcat(ans," ");
 			strcat(ans, yytext);
