@@ -1,15 +1,18 @@
-#DM 1033XX: REPLACE WITH YOUR PROJECT TITLE#
+#DM 103411: REPLACE WITH YOUR PROJECT TITLE#
 <!-- Replace XX with your course ID-->
 ###PROJECT MEMBERS###
 StdID | Name
 ------------ | -------------
 **60603** | **Khulood Muzaffar** <!--this is the group leader in bold-->
-54321 | Sajid Rashid
 <!-- Replace name and student ids with acutally group member names and ids-->
 ## Project Description ##
-Replace this text with the description of your project. Tell what the project was about. What you aimed to deliver in the project.
+The purpose of this project was to demonstrate our knowledge of the compiler and how it functions, based on what we've learned in class. 
+We were supposed to choose a language of our choice, from three given options, and display our knowledge of this course by building a lexical analyzer and a parser.
+My aim was to fulfill the purpose of this project, putting as much effort and time as required to achieve these two goals, which were coding a lexer and a parser.
 
 ##Sample Language Used ##
+The sample language I chose for this project, was ChocoPy.
+
 Replace this text with the desription of what was your sample language. You may include some code examples of loops, if and simple statements 
 ```C++
 #include <some code examples.h>
