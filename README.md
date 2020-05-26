@@ -54,7 +54,7 @@ The following is a space-separated list of symbols that correspond to distinct C
 True|False|None|and|as|assert|async|await|break|class|continue|del|def|elif|else|except|finally|for|from|global|if|import|in|is|lambda|nonlocal|not|or|pass|raise|return|try|while|with|yield
 
 #### String Literals ####
-["]([^"\\\n]|\\.|\\\n)*["] 
+["]\([^"\\\n]|\\.|\\\n)*["] 
 
 #### Integer Literals ####
 [0]|[1-9][0-9]*
