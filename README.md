@@ -13,8 +13,8 @@ My aim was to fulfill the purpose of this project, putting as much effort and ti
 ## Sample Language Used ##
 The sample language I chose for this project, was ChocoPy.
 
-Replace this text with the desription of what was your sample language. You may include some code examples of loops, if and simple statements 
-```C++
+ChocoPy has been designed to be a subset of Python.  Almost every valid ChocoPy program is also avalid Python 3.6 program.  An execution of a ChocoPy program that does not result in error usually hasthe same observable semantics as the execution of that program in Python 3.6.  Appendix A lists the smallnumber of exceptions to this rule. 
+```Python
 
 class C(object):
 	def f(self:"C") -> int:
