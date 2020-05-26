@@ -21,22 +21,22 @@ for(int i=0; i<10 ; i++){
     printf("Please Allah Forgive me. I cheated in exam while fasting!");
 }
 ```
-###Lexical Specification###
+### Lexical Specification ###
 
 
-###Grammar###
+### Grammar ###
 Replace this text with a complete GRAMMAR of your selected language
 
-##Problems Faced##
+## Problems Faced ##
 Following are the major problems I faced during the making of this project.
 
-###Problem 1: Internet wasn't always available###
+### Problem 1: Internet wasn't always available ###
 I resolved this issue by using mobile data packages whenever necessary. 
 
-###Problem 2: I have Windows on my PC while flex works well on Linux###
+### Problem 2: I have Windows on my PC while flex works well on Linux ###
 I resolved this issue by working on a virtual machine. 
 
-##References##
+## References ##
 - https://docs.python.org/3/reference/grammar.html
 - https://www.lemoda.net/c/c-regex/
 - https://chocopy.org/chocopy_language_reference.pdf
