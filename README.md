@@ -1,4 +1,4 @@
-# DM 103411: LEXER and PARSER for CHOCOPY #
+# DM 103411: Lexer and Parser for ChocoPy #
 <!-- Replace XX with your course ID-->
 ### PROJECT MEMBERS ###
 StdID | Name
@@ -15,14 +15,37 @@ The sample language I chose for this project, was ChocoPy.
 
 Replace this text with the desription of what was your sample language. You may include some code examples of loops, if and simple statements 
 ```C++
-#include <some code examples.h>
-printf("This is a loop example!");
-for(int i=0; i<10 ; i++){
-    printf("Please Allah Forgive me. I cheated in exam while fasting!");
-}
+
+class C(object):
+	def f(self:"C") -> int:
+		def g() -> int:
+			x:int = 1
+			return x
+		return g()
+C().f()
 ```
 ### Lexical Specification ###
+#### Identifiers ####
+Identifiers are defined as a contiguous sequence of characters containing the uppercase and lowercase letters A through Z, the underscoreand, except for the first character, the digits 0 through 9.
 
+#### Keywords ####
+The following strings are not recognized as identifiers, and are instead recognized as distinct keyword tokens:False,None,True,and,as,assert,async,await,break,class,continue,def,del,
+elif,else,except,finally,for,from,global,if,import,in,is,lambda,nonlocal,not,or
+,pass,raise,return,try,while,with,yield.
+
+#### String Literals ####
+String literals in ChocoPy are greatly simplified from that in Python.  In ChocoPy, string literals are simplya sequence of ASCII characters delimited by (and including) double quotes:"...".  The ASCII charactersmust lie within the decimal range 32-126 inclusive—that is, higher than or equal to thespacecharacter andup totilde.  The string itself may contain double quotes escaped by a preceding backslash, e.g.\".
+
+#### Integer Literals ####
+Integer literals in ChocoPy are composed of a sequence of one or more digits0-9, where the leftmost digitmay only be0if it is the only character in the sequence.  That is, non-zero valued integer literals may nothave leading zeros.
+
+#### Operators ####
+The following is a space-separated list of symbols that correspond to distinct ChocoPy operator tokens:
++ - * // %< > <= >= == != = 
+
+#### Delimiters ####
+The following is a space-separated list of symbols that correspond to distinct ChocoPy delimiter tokens:
+( ) [ ] :
 
 ### Grammar ###
 Replace this text with a complete GRAMMAR of your selected language
