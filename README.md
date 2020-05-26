@@ -1,6 +1,6 @@
-#DM 103411: LEXER and PARSER for CHOCOPY#
+# DM 103411: LEXER and PARSER for CHOCOPY #
 <!-- Replace XX with your course ID-->
-###PROJECT MEMBERS###
+### PROJECT MEMBERS ###
 StdID | Name
 ------------ | -------------
 **60603** | **Khulood Muzaffar** <!--this is the group leader in bold-->
