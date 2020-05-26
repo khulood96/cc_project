@@ -44,10 +44,26 @@ The following is a space-separated list of symbols that correspond to distinct C
 
 #### Delimiters ####
 The following is a space-separated list of symbols that correspond to distinct ChocoPy delimiter tokens:
-( ) [ ] :
+( ) [ ] : . ,
 
 ### Grammar ###
-Replace this text with a complete GRAMMAR of your selected language
+#### Identifiers ####
+[a-zA-Z][_a-zA-Z0-9]*
+
+#### Keywords ####
+True|False|None|and|as|assert|async|await|break|class|continue|del|def|elif|else|except|finally|for|from|global|if|import|in|is|lambda|nonlocal|not|or|pass|raise|return|try|while|with|yield
+
+#### String Literals ####
+["]([^"\\\n]|\\.|\\\n)*["] 
+
+#### Integer Literals ####
+[0]|[1-9][0-9]*
+
+#### Operators ####
+(\%|\=|\+|\>|\<|\*|\-|\/\/|>=|<=|==|!=|\++|--)
+
+#### Delimiters ####
+[():\[\].,]
 
 ## Problems Faced ##
 Following are the major problems I faced during the making of this project.
