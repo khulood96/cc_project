@@ -46,6 +46,13 @@ The following is a space-separated list of symbols that correspond to distinct C
 The following is a space-separated list of symbols that correspond to distinct ChocoPy delimiter tokens:
 ( ) [ ] : . ,
 
+#### Indentation ####
+The description of indentation is borrowed from the Python 3 documentation1. “Leading whitespace (spaces and tabs) at the beginning of a logical line is used to compute the indentationlevel of the line, which in turn is used to determine the grouping of statements.  Tabs are replaced (from left to right) by one to eight spaces such that the total number of characters up to and including the replacement is a multiple of eight (this is intended to be the same rule as used by Unix).  The total number of spaces preceding the first non-blank character then determines the line’s indentation.”
+
+#### Comments ####
+A comment starts with a hash character (#) that is not part of a string literal, and ends at the end of the physical line. 
+Comments are ignored by the lexical analyzer; they are not emitted as tokens.
+
 ### Grammar ###
 #### Identifiers ####
 [a-zA-Z][_a-zA-Z0-9]*
@@ -64,6 +71,12 @@ True|False|None|and|as|assert|async|await|break|class|continue|del|def|elif|else
 
 #### Delimiters ####
 [():\[\].,]
+
+#### Indentation ####
+[\t]
+
+#### Comments ####
+As comments are not ignored by the lexical analyzer and they are not emitted as tokens, we don't define any rule for them in the Grammar.
 
 ## Problems Faced ##
 Following are the major problems I faced during the making of this project.

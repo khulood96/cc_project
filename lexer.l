@@ -40,10 +40,15 @@ True|False|None|and|as|assert|async|await|break|class|continue|del|def|elif|else
 			strcat(ans, yytext);
 			strcat(ans,"\n");}
 
+[\t]			{printf("%s %s \n",yytext, INDENTATION);
+			strcat(ans, INDENTATION);
+			strcat(ans," ");
+			strcat(ans, yytext);
+			strcat(ans,"\n");}
 
-[ \t]			;
+[ ]			;
 [\n]			return 0;
-.			printf("unexpected character\n");
+;			printf("unexpected character\n");
 
 %%
 
