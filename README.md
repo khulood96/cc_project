@@ -7,10 +7,10 @@ StdID | Name
 <!-- Replace name and student ids with acutally group member names and ids-->
 ## Project Description ##
 The purpose of this project was to demonstrate our knowledge of the compiler and how it functions, based on what we've learned in class. 
-We were supposed to choose a language of our choice, from three given options, and display our knowledge of this course by building a lexical analyzer and a parser.
-My aim was to fulfill the purpose of this project, putting as much effort and time as required to achieve these two goals, which were coding a lexer and a parser.
+We were supposed to select a language of our choice, from three given options, and display our knowledge of this course by building a lexical analyzer and a parser.
+My aim was to fulfill the purpose of this project, putting as much effort and time as required to achieve these two goals.
 
-##Sample Language Used ##
+## Sample Language Used ##
 The sample language I chose for this project, was ChocoPy.
 
 Replace this text with the desription of what was your sample language. You may include some code examples of loops, if and simple statements 
