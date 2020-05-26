@@ -1,0 +1,6 @@
+#define IDENTIFIER "IDEN"
+#define KEYWORD "KEYWRD"
+#define OPERATOR "OP"
+#define DELIMITER "DLMTR"
+#define STRING "STR"
+#define INTEGER "INT"
