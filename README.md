@@ -76,7 +76,7 @@ True|False|None|and|as|assert|async|await|break|class|continue|del|def|elif|else
 [\t]
 
 #### Comments ####
-As comments are not ignored by the lexical analyzer and they are not emitted as tokens, we don't define any rule for them in the Grammar.
+As comments are ignored by the lexical analyzer and they are not emitted as tokens, we don't define any rule for them in the Grammar.
 
 ## Problems Faced ##
 Following are the major problems I faced during the making of this project.
