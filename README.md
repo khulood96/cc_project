@@ -1,4 +1,4 @@
-# DM 103411: Lexer and Parser for ChocoPy #
+# CC 103411: Lexer and Parser for ChocoPy #
 <!-- Replace XX with your course ID-->
 ### PROJECT MEMBERS ###
 StdID | Name
@@ -13,7 +13,7 @@ My aim was to fulfill the purpose of this project, putting as much effort and ti
 ## Sample Language Used ##
 The sample language I chose for this project, was ChocoPy.
 
-ChocoPy has been designed to be a subset of Python.  Almost every valid ChocoPy program is also avalid Python 3.6 program.  An execution of a ChocoPy program that does not result in error usually hasthe same observable semantics as the execution of that program in Python 3.6.  Appendix A lists the smallnumber of exceptions to this rule. 
+ChocoPy has been designed to be a subset of Python.  Almost every valid ChocoPy program is also avalid Python 3.6 program.  An execution of a ChocoPy program that does not result in error usually has the same observable semantics as the execution of that program in Python 3.6. 
 ```Python
 
 class C(object):
@@ -40,8 +40,7 @@ String literals in ChocoPy are greatly simplified from that in Python.  In Choco
 Integer literals in ChocoPy are composed of a sequence of one or more digits0-9, where the leftmost digitmay only be0if it is the only character in the sequence.  That is, non-zero valued integer literals may nothave leading zeros.
 
 #### Operators ####
-The following is a space-separated list of symbols that correspond to distinct ChocoPy operator tokens:
-+ - * // %< > <= >= == != = 
+The following is a space-separated list of symbols that correspond to distinct ChocoPy operator tokens: + - * // %< > <= >= == != = 
 
 #### Delimiters ####
 The following is a space-separated list of symbols that correspond to distinct ChocoPy delimiter tokens:
